@@ -18,7 +18,7 @@ These sessions last for 50 minutes. After the therapist has marked a session as 
 ## In advance of our interview
 
 Please take no longer than an hour to:
-1. Suggest a useful TypeScript representation of application state in the browser of the member and the therapist.
+1. Suggest a useful TypeScript representation of application state for both the member and the therapist (who use separate web clients).
 1. Describe in words each event that would lead to a change of this state
 
 Please send your answers to me via email.
