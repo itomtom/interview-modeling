@@ -1,14 +1,16 @@
 ## Take-home exercise
-Thank you for taking the time to do this exercise. Please spend no longer than an hour on the below. Please send your answers to alan.thomson@helloself.com. If you enjoy the excercise and would like to continue, we would be delighted to interview. We will spend the first part of your interview discussing this work.
+Thank you for taking the time to do this exercise. Please spend no longer than an hour on the below. If you enjoy the excercise and would like to continue, we would be delighted to interview. We will spend the first part of your interview discussing this work.
+
+Please send your answers to alan.thomson@helloself.com.
 
 ## Brief: Desired UX
-At HelloSelf, therapy sessions are scheduled between therapists and our members well in advance of the session taking place. Sessions take place online. Both the member and the therapist join the call via a video call hosted on the web after logging in. 
+At HelloSelf, therapy sessions are scheduled between therapists and our members well in advance of the session taking place. Sessions take place online. Both the member and the therapist join the session via a video call hosted on the web after logging in. 
 
 The session screen looks like this:
 ![Session screen](session.png "Session screen")
 
 
-These calls last for 50 minutes. After the therapist has marked a session as complete, the member is shown a 60-second relaxation video.
+These sessions last for 50 minutes. After the therapist has marked a session as complete, the member is shown a 60-second relaxation video.
 
 
 
