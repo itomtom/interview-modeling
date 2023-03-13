@@ -1,14 +1,27 @@
 ## Take-home exercise
+Thank you for taking the time to do this exercise. Please spend no longer than an hour on the below. Please send your answers to alan.thomson@helloself.com. If you enjoy the excercise and would like to continue, we would be delighted to interview. We will spend the first part of your interview discussing this work.
 
-## Brief
-At HelloSelf, therapy sessions are scheduled between therapists and our members well in advance of the session taking place. Sessions take place online. Both the member and the therapist join the call via a video call hosted on the web.
+## Brief: Desired UX
+At HelloSelf, therapy sessions are scheduled between therapists and our members well in advance of the session taking place. Sessions take place online. Both the member and the therapist join the call via a video call hosted on the web after logging in. 
+
+The session screen looks like this:
+![Session screen](session.png "Session screen")
+
+
+These calls last for 50 minutes. After the therapist has marked a session as complete, the member is shown a 60-second relaxation video.
+
+
+
 
 ## In advance of our interview
-1. Suggest a useful TypeScript representation of session state on the web client for the member/therapist
-2. Describe in words each of the events that would lead to a change of this state
 
-Please spend no longer than an hour on the above. Please send your answers to alan.thomson@helloself.com
+Please take no longer than an hour to:
+1. Suggest a useful TypeScript representation of application state in the browser of the member and the therapist.
+1. Describe in words each event that would lead to a change of this state
 
+Please send your answers to me via email.
 
 ## The interview
-In the interview, we will discuss your answers to the above.  
+In the first part of the follow-up interview, we will discuss your answers to the above.  
+
+
