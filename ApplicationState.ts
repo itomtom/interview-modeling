@@ -1,22 +1,34 @@
-interface UserSession {
-  name: string;
-  status: boolean;
-  link: string;
+interface User {
+  id: string;
+  recipient: string;
+  recipientJoined: boolean;
   joined: boolean;
+  device: {
+    microphone: string;
+    camera: string;
+    speaker: string;
+  };
 }
 
-interface Therapist extends UserSession {}
-
-interface Member extends UserSession {
-  showRelaxationVideo: boolean;
-  relaxationLink: string;
+interface Therapist extends User {
+  notes: string;
 }
 
-interface ApplicationState {
+interface Member extends User {
+  relaxationVideo: {
+    started: boolean;
+    ended: boolean;
+    link: string;
+  };
+}
+
+interface Session {
   member: Member;
   therapist: Therapist;
   schedule: {
     startAt: string;
     endAt: string;
   };
+  meetingLink: string;
+  complete: boolean;
 }
